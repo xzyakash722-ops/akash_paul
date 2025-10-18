@@ -1,0 +1,58 @@
+body{
+	margin:0;
+	font-family:'Segoe UI',sans-serif;
+	background:linear-gradient(to right,#6a11cb,#2575fc);
+	color:#fff;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:100vh;
+}
+
+.login-container,.exam-container,.result-container{
+	background-color:rgba(255,300,255,0.1);
+	padding:30px 40px;
+	border-radius:12px;
+	backdrop-filter:blur(10px);
+	width:100%;
+	max-width:400px;
+	box-shadow:0 10px 20px rgba (0,0,0,0.3);
+}
+
+h2{
+	text-align:center;
+	margin-bottom:20px;
+}
+form input, form button{
+	width:100%;
+	padding:10px;
+	margin-top:10px;
+	border:none;
+	border-radius:7px;
+}
+
+input {
+	background:#ffffffee;
+}
+
+button{
+	background-color:#ffffff;
+	color:#2575fc;
+	font-weight:bold;
+	cursor:pointer;
+	transition:0.3s;
+}
+
+button:hover{
+	background-color:#ddd;
+}
+
+.question{
+	margin-bottom:20px;
+}
+.question label{
+	display:block;
+	margin:6px 0;
+	cursor:pointer;
+}
+	
